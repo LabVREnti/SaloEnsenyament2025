@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+
+    private VideoPlayer currrentPlayer;
 
     private void Awake()
     {
@@ -19,5 +22,24 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
+    }
+
+    public bool TryPlayVideo(VideoPlayer player)
+    {
+        if (currrentPlayer == null)
+        {
+            currrentPlayer = player;
+            player.Play();
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public void ClearCurrentPlayer()
+    {
+        currrentPlayer = null;
     }
 }
