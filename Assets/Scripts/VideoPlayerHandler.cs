@@ -38,4 +38,26 @@ public class VideoPlayerHandler : MonoBehaviour
         playerRef.time = newVal;
     }
 
+    public void FastForward()
+    {
+        playerRef.time += 5f; //time in seconds
+    }
+    public void Rewind()
+    {
+        playerRef.time -= 5f; //time in seconds
+    }
+
+    public void SwitchPlay()
+    {
+        if(isPlaying)
+        {
+            isPlaying = false;
+            playerRef.playbackSpeed = 0f;
+        }
+        else
+        {
+            isPlaying = true;
+            playerRef.playbackSpeed = 1f;
+        }
+    }
 }
