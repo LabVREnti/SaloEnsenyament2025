@@ -6,9 +6,10 @@ public class VideoPlayerHandler : MonoBehaviour
 {
     public VideoPlayer playerRef;
     public Slider durationBar;
+    public Slider volumeBar;
     private bool isPlaying;
 
-    private void OnEnable()
+    private void Start()
     {
         isPlaying = true;
         if(!GameManager.Instance.TryPlayVideo(playerRef))
@@ -19,6 +20,9 @@ public class VideoPlayerHandler : MonoBehaviour
         durationBar.maxValue = (float)playerRef.length;
         durationBar.value = durationBar.minValue;
         durationBar.onValueChanged.AddListener(ForceTimePosition);
+
+        //volumeBar.value = volumeBar.maxValue = playerRef.GetDirectAudioVolume(0);
+        volumeBar.onValueChanged.AddListener(ForceVolume);
     }
 
     private void Update()
@@ -37,6 +41,12 @@ public class VideoPlayerHandler : MonoBehaviour
     private void ForceTimePosition(float newVal)
     {
         playerRef.time = newVal;
+    }
+
+    private void ForceVolume(float newVal)
+    {
+        playerRef.SetDirectAudioVolume(0, newVal);
+        playerRef.SetDirectAudioMute(0, newVal < Mathf.Epsilon);
     }
 
     public void FastForward()
