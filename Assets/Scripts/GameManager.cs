@@ -5,7 +5,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    private short currentWindows;
+    public const short MAX_WINDOWS = 6;
+
     private VideoPlayer currrentPlayer;
+    [field:SerializeField] public Transform DesktopTr {  get; private set; }
 
     private void Awake()
     {
@@ -42,4 +46,16 @@ public class GameManager : MonoBehaviour
     {
         currrentPlayer = null;
     }
+
+    public bool TryOpenWindow()
+    {
+        if (currentWindows < MAX_WINDOWS)
+        {
+            currentWindows++;
+            return true;
+        }
+        return false;
+    }
+
+    public void WindowClosed() => currentWindows--;
 }

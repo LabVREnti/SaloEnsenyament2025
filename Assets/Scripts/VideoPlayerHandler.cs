@@ -10,6 +10,7 @@ public class VideoPlayerHandler : MonoBehaviour
 
     private void OnEnable()
     {
+        isPlaying = true;
         if(!GameManager.Instance.TryPlayVideo(playerRef))
         {
             isPlaying = false;
