@@ -1,0 +1,23 @@
+# ninja log v5
+13	2726	7597765599604386	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ae8fe643b6ff5c09
+47	798	7597765580396612	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	b21870d8bb2a385a
+800	1146	7597765583870486	C:/Users/LaboratoriVR/Desktop/Salo Ensenyament/SaloEnsenyament2025/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/593l4341/obj/arm64-v8a/libswappywrapper.so	b387d2c781876853
+22	2506	7597765597185217	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5392d0ad7b8a4242
+40	2613	7597765598370225	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e9f12e4aef731786
+7	2557	7597765597944047	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d8503c4863ab14ee
+0	2637	7597765598581823	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	5b8a9a320935b7e
+35	2558	7597765597959688	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	129f7c17e7abc426
+29	2583	7597765598126290	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	cbec7375c5cfbf4f
+18	2713	7597765599508427	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	988d739f0024f71c
+2726	2994	7597765602218968	C:/Users/LaboratoriVR/Desktop/Salo Ensenyament/SaloEnsenyament2025/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/593l4341/obj/arm64-v8a/libgame.so	8c96f6985a766076
+62	697	7598530772670283	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	b21870d8bb2a385a
+45	1487	7598530780517552	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5392d0ad7b8a4242
+24	1514	7598530780826908	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d8503c4863ab14ee
+30	1527	7598530780933186	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	129f7c17e7abc426
+54	1561	7598530781262460	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e9f12e4aef731786
+20	1596	7598530781553648	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	5b8a9a320935b7e
+15	1657	7598530781932395	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	cbec7375c5cfbf4f
+36	1739	7598530783033836	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	988d739f0024f71c
+9	1748	7598530783111547	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ae8fe643b6ff5c09
+698	8997	7598530855590697	C:/Users/LaboratoriVR/Desktop/Salo Ensenyament/SaloEnsenyament2025/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/593l4341/obj/arm64-v8a/libswappywrapper.so	b387d2c781876853
+1748	9008	7598530855600766	C:/Users/LaboratoriVR/Desktop/Salo Ensenyament/SaloEnsenyament2025/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/593l4341/obj/arm64-v8a/libgame.so	8c96f6985a766076

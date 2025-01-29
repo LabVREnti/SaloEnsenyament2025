@@ -20,6 +20,9 @@ public class VideoPlayerHandler : MonoBehaviour
         durationBar.maxValue = (float)playerRef.length;
         durationBar.value = durationBar.minValue;
         durationBar.onValueChanged.AddListener(ForceTimePosition);
+        Debug.Log(durationBar.maxValue);
+        
+      
 
         //volumeBar.value = volumeBar.maxValue = playerRef.GetDirectAudioVolume(0);
         volumeBar.onValueChanged.AddListener(ForceVolume);
@@ -27,7 +30,8 @@ public class VideoPlayerHandler : MonoBehaviour
 
     private void Update()
     {
-        durationBar.value = (float)playerRef.time;
+       // durationBar.value = (float)playerRef.time;
+        Debug.Log(durationBar.value);
     }
 
     private void OnDestroy()
