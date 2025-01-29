@@ -42,19 +42,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5529724556975786622, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: 'languages.Array.data[0]'
-      value: Videos de Disseny / Art
+      value: "Videos de Programaci\xF3"
       objectReference: {fileID: 0}
     - target: {fileID: 5529724556975786622, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: 'languages.Array.data[1]'
-      value: Design / Art Videos
+      value: Coding Videos
       objectReference: {fileID: 0}
     - target: {fileID: 5529724556975786622, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: 'languages.Array.data[2]'
-      value: "Videos de Dise\xF1o / Arte"
+      value: "Videos de Programaci\xF3n"
       objectReference: {fileID: 0}
     - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: m_text
-      value: Design Videos
+      value: Coding Videos
       objectReference: {fileID: 0}
     - target: {fileID: 7202234989959677741, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: m_Pivot.x
@@ -144,9 +144,13 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8018245628802563949, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 636.3098
+      objectReference: {fileID: 0}
     - target: {fileID: 8175362284207565733, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: m_Name
-      value: DesignWin
+      value: DevWin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
