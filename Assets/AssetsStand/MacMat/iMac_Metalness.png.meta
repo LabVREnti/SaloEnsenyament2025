@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      iMac_Metalness_0: 1000860922823655459
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
