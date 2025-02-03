@@ -9,6 +9,14 @@ public class VideoPlayerHandler : MonoBehaviour
     public Slider volumeBar;
     private bool isPlaying;
 
+    public enum PlayerState
+    {
+        PLAYING,
+        GRABBED,
+        RELEASED
+    }
+    public PlayerState State { get; set; }
+
     private void Start()
     {
         isPlaying = true;
@@ -17,9 +25,9 @@ public class VideoPlayerHandler : MonoBehaviour
             isPlaying = false;
             Destroy(gameObject);
         }
+        State = PlayerState.PLAYING;
         durationBar.maxValue = (float)playerRef.length;
         durationBar.value = durationBar.minValue;
-        durationBar.onValueChanged.AddListener(ForceTimePosition);
 
         //volumeBar.value = volumeBar.maxValue = playerRef.GetDirectAudioVolume(0);
         volumeBar.onValueChanged.AddListener(ForceVolume);
@@ -27,7 +35,18 @@ public class VideoPlayerHandler : MonoBehaviour
 
     private void Update()
     {
-        durationBar.value = (float)playerRef.time;
+        switch (State)
+        {
+            case PlayerState.PLAYING:
+                durationBar.value = (float)playerRef.time;
+                break;
+            case PlayerState.GRABBED:
+                break;
+            case PlayerState.RELEASED:
+                State = PlayerState.PLAYING;
+                return; //skip one frame
+            default: break;
+        }
     }
 
     private void OnDestroy()
@@ -38,10 +57,7 @@ public class VideoPlayerHandler : MonoBehaviour
         }
     }
 
-    private void ForceTimePosition(float newVal)
-    {
-        playerRef.time = newVal;
-    }
+    
 
     private void ForceVolume(float newVal)
     {
