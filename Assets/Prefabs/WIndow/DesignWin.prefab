@@ -172,6 +172,34 @@ PrefabInstance:
       propertyPath: m_text
       value: Design Videos
       objectReference: {fileID: 0}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d5b19f3a540e754fafec1deb2874493, type: 2}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 602756653555254138, guid: 9d5b19f3a540e754fafec1deb2874493, type: 2}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373873607956259250, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7202234989959677741, guid: 2db4fd9ddc9d92e4cb3bedadb63bbdd0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
