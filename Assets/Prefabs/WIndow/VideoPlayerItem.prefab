@@ -93,10 +93,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 4816102362802961947}
-    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -118,14 +114,17 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6805039729579218023, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4816102362802961947}
+      addedObject: {fileID: 754525234201589377}
+    - targetCorrespondingSourceObject: {fileID: 6805039729579218023, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5286735926729946599}
   m_SourcePrefab: {fileID: 100100000, guid: 81e1dc752592955429595403cd89b37d, type: 3}
 --- !u!1 &6191323271624645388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6805039729579218023, guid: 81e1dc752592955429595403cd89b37d, type: 3}
   m_PrefabInstance: {fileID: 836442622635970411}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4816102362802961947
+--- !u!114 &754525234201589377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,8 +133,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 6191323271624645388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32a16b1a0c3f2d045ab117a90ed86c8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2eda53f396984994ba4b507e5c6e7661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   folderPrefab: {fileID: 3282226232928633818, guid: a091cc94d364f7848a6c7f8d09eeeea4, type: 3}
   folderParent: {fileID: 0}
+  videoLenguageRef: {fileID: 5286735926729946599}
+--- !u!114 &5286735926729946599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191323271624645388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b985ef328426a84419d869104977ae9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -430,15 +430,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: 'videos.Array.data[0]'
+      value: 
+      objectReference: {fileID: 32900000, guid: 5026a4ffa40eca24ab084931829610ff, type: 3}
+    - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: 'videos.Array.data[1]'
+      value: 
+      objectReference: {fileID: 32900000, guid: c5fefc63fcf292440a3e310d6f22c3a1, type: 3}
+    - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: 'videos.Array.data[2]'
+      value: 
+      objectReference: {fileID: 32900000, guid: 4cc31818d79c2f4418c69ecd6636eabf, type: 3}
     - target: {fileID: 6191323271624645388, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: m_Name
       value: VideoPlayerItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120634335650218338, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2924346179498257011}
+    - target: {fileID: 7120634335650218338, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenNewPlayerWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120634335650218338, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OpenVideoPlayerWindow, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+--- !u!114 &2924346179498257011 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 754525234201589377, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+  m_PrefabInstance: {fileID: 2516880972501540082}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eda53f396984994ba4b507e5c6e7661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3417446796871238495 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 973045978819616685, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
