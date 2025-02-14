@@ -8,6 +8,7 @@ public class VideoPlayerHandler : MonoBehaviour
     public Slider durationBar;
     public Slider volumeBar;
     private bool isPlaying;
+    public AudioSource audioSource;
 
     public enum PlayerState
     {
@@ -29,7 +30,6 @@ public class VideoPlayerHandler : MonoBehaviour
         durationBar.maxValue = (float)playerRef.length;
         durationBar.value = durationBar.minValue;
 
-        //volumeBar.value = volumeBar.maxValue = playerRef.GetDirectAudioVolume(0);
         volumeBar.onValueChanged.AddListener(ForceVolume);
     }
 
@@ -58,11 +58,10 @@ public class VideoPlayerHandler : MonoBehaviour
     }
 
     
-
     private void ForceVolume(float newVal)
     {
-        playerRef.SetDirectAudioVolume(0, newVal);
-        playerRef.SetDirectAudioMute(0, newVal < Mathf.Epsilon);
+        audioSource.volume = newVal;
+        audioSource.mute = newVal < Mathf.Epsilon;
     }
 
     public void FastForward()
