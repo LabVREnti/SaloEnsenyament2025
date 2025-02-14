@@ -702,15 +702,15 @@ PrefabInstance:
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 32900000, guid: 1ad31ea561cf7a047b25e297b1a17750, type: 3}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[1]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 32900000, guid: 8f2a06aa19eb4d04c9dfdb86287ae1ac, type: 3}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[2]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 32900000, guid: ae7baf3da62ca614089656e4a63780c0, type: 3}
     - target: {fileID: 6191323271624645388, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: m_Name
       value: VideoPlayerItem (5)
