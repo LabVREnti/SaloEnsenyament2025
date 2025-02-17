@@ -93,7 +93,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.1
+  m_fontSize: 18
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -268,14 +268,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 910865236458915008}
+    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: -7003125305416152288}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
@@ -283,15 +291,31 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OpenNewWindow
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: OpenWindow, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586937071144996361, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -305,6 +329,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: -7003125305416152288}
   m_SourcePrefab: {fileID: 100100000, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+--- !u!82 &910865236458915008 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3291752829906689749, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+  m_PrefabInstance: {fileID: 2380905402831952405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2815309224497089235 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 440033399870902470, guid: 81e1dc752592955429595403cd89b37d, type: 3}
