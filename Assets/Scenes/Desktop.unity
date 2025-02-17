@@ -2602,6 +2602,22 @@ PrefabInstance:
       propertyPath: 'languages.Array.data[2]'
       value: "VIDEOS PROGRAMACI\xD3N"
       objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 230.5737
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 185.3452
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9.654791
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20.172607
+      objectReference: {fileID: 0}
     - target: {fileID: 9185926301006302834, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
       propertyPath: m_Name
       value: DevWindow (2)
@@ -3105,6 +3121,14 @@ PrefabInstance:
     - target: {fileID: 1998994260744254763, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 181.7602
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18.3801
       objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
@@ -4396,6 +4420,18 @@ PrefabInstance:
     - target: {fileID: 5206332455913280540, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 168.9445
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 180.2894
+      objectReference: {fileID: 0}
+    - target: {fileID: 7518650648279580832, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9185926301006302834, guid: e5f36ba0eb812cb48a81e87bd85e003f, type: 3}
       propertyPath: m_Name
