@@ -250,6 +250,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5286434540509485749, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 324.9792
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286434540509485749, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 305.6587
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286434540509485749, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.9056
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286434540509485749, guid: 81e1dc752592955429595403cd89b37d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -46.4808
+      objectReference: {fileID: 0}
     - target: {fileID: 6805039729579218023, guid: 81e1dc752592955429595403cd89b37d, type: 3}
       propertyPath: m_Name
       value: VideoPlayerItem

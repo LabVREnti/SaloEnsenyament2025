@@ -404,6 +404,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 256.658
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 213.3305
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -34.165283
+      objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
       value: 
@@ -593,6 +609,22 @@ PrefabInstance:
     - target: {fileID: 973045978819616685, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 226.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 232.2542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13.235
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -43.627075
       objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
@@ -800,6 +832,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 260.7832
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 226.3718
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -40.685913
+      objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
       value: 
@@ -990,6 +1034,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 253.3252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 214.1638
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -34.58188
+      objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
       value: 
@@ -1179,6 +1239,18 @@ PrefabInstance:
     - target: {fileID: 973045978819616685, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 249.0187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 220.4897
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -37.744873
       objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
@@ -1386,6 +1458,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 203.9215
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 235.1953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.9608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -45.0977
+      objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
       value: 
@@ -1575,6 +1663,22 @@ PrefabInstance:
     - target: {fileID: 973045978819616685, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 256.658
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 229.1614
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811696076356244958, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -42.0807
       objectReference: {fileID: 0}
     - target: {fileID: 5286735926729946599, guid: b4589bce8d81c7448bec28334c5c395d, type: 3}
       propertyPath: 'videos.Array.data[0]'
