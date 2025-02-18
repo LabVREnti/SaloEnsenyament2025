@@ -4,7 +4,7 @@ using UnityEngine.Video;
 
 public class VideoPlayerHandler : MonoBehaviour
 {
-    public VideoPlayer playerRef;
+    public VideoPlayer videoPlayerRef;
     public Slider durationBar;
     public Slider volumeBar;
     private bool isPlaying;
@@ -12,6 +12,7 @@ public class VideoPlayerHandler : MonoBehaviour
     public enum PlayerState
     {
         PLAYING,
+        PAUSED,
         GRABBED,
         RELEASED
     }
@@ -20,17 +21,20 @@ public class VideoPlayerHandler : MonoBehaviour
     private void Start()
     {
         isPlaying = true;
-        if(!GameManager.Instance.TryPlayVideo(playerRef))
+        if(!GameManager.Instance.TryPlayVideo(videoPlayerRef))
         {
             isPlaying = false;
             Destroy(gameObject);
         }
         State = PlayerState.PLAYING;
-        durationBar.maxValue = (float)playerRef.length;
+        durationBar.maxValue = (float)videoPlayerRef.length;
         durationBar.value = durationBar.minValue;
 
-        //volumeBar.value = volumeBar.maxValue = playerRef.GetDirectAudioVolume(0);
         volumeBar.onValueChanged.AddListener(ForceVolume);
+
+        videoPlayerRef.Play();
+        videoPlayerRef.frame = 1;
+        videoPlayerRef.Pause();
     }
 
     private void Update()
@@ -38,13 +42,18 @@ public class VideoPlayerHandler : MonoBehaviour
         switch (State)
         {
             case PlayerState.PLAYING:
-                durationBar.value = (float)playerRef.time;
+                durationBar.value = (float)videoPlayerRef.time;
                 break;
+
+            case PlayerState.PAUSED:
             case PlayerState.GRABBED:
                 break;
+
             case PlayerState.RELEASED:
                 State = PlayerState.PLAYING;
+                durationBar.value = (float)videoPlayerRef.time;
                 return; //skip one frame
+            
             default: break;
         }
     }
@@ -61,17 +70,17 @@ public class VideoPlayerHandler : MonoBehaviour
 
     private void ForceVolume(float newVal)
     {
-        playerRef.SetDirectAudioVolume(0, newVal);
-        playerRef.SetDirectAudioMute(0, newVal < Mathf.Epsilon);
+        videoPlayerRef.SetDirectAudioVolume(0, newVal);
+        videoPlayerRef.SetDirectAudioMute(0, newVal < Mathf.Epsilon);
     }
 
     public void FastForward()
     {
-        playerRef.time += 5f; //time in seconds
+        videoPlayerRef.time += 5f; //time in seconds
     }
     public void Rewind()
     {
-        playerRef.time -= 5f; //time in seconds
+        videoPlayerRef.time -= 5f; //time in seconds
     }
 
     public void SwitchPlay()
@@ -79,12 +88,14 @@ public class VideoPlayerHandler : MonoBehaviour
         if(isPlaying)
         {
             isPlaying = false;
-            playerRef.playbackSpeed = 0f;
+            videoPlayerRef.playbackSpeed = 0f;
+            State = PlayerState.PAUSED;
         }
         else
         {
             isPlaying = true;
-            playerRef.playbackSpeed = 1f;
+            videoPlayerRef.playbackSpeed = 1f;
+            State = PlayerState.PLAYING;
         }
     }
 }

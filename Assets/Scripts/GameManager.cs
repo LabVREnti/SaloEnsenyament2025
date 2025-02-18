@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
         if (currrentPlayer == null)
         {
             currrentPlayer = player;
-            player.Play();
             return true;
         }
         else
