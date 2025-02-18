@@ -26,6 +26,6 @@ public class DurationBarHandler : MonoBehaviour, IBeginDragHandler, IEndDragHand
 
     private void ForceTimePosition(float newVal)
     {
-        videoPlayerHandlerRef.playerRef.time = newVal;
+        videoPlayerHandlerRef.videoPlayerRef.time = newVal;
     }
 }
